@@ -12,5 +12,6 @@ venv/
 .venv/
 
 # OS
-.DS_Storeresults/gsea/immune_inflammatory/*.gmt
+.DS_Store
+results/gsea/immune_inflammatory/*.gmt
 results/gsea/immune_inflammatory/*.rnk
