@@ -3,9 +3,9 @@
 ![GSEApy](https://img.shields.io/badge/GSEApy-latest-orange)
 ![Status](https://img.shields.io/badge/Status-In_Progress-orange)
 
-Primary Question: Will immune/inflammatory pathway genes, implicated in schizophrenia by independent studies, show enrichment in expression differences between SCZ vs. control subjects in GSE21138 dataset, and will a classifier trained on this expression data learn features reflecting this signal?
+Primary Hypothesis: Immune/inflammatory pathways, implicated in schizophrenia by independent studies, are enriched for differentially expressed genes between SCZ and control subjects in the `GSE21138` dataset, and a classifier trained on this expression data learns features reflecting this signal.
 
-Secondary/Exploratory Question: Are the classifier's learned features aligned more closely with long-term-illness or short-term-illness signatures reported in GSE21138's original study?
+Secondary/Exploratory Hypothesis: The classifier's top learned features show statistically significant overlap with either the long-term-illness or short-term-illness signatures reported in `GSE21138`'s original study.
 
 ---
 
@@ -23,7 +23,7 @@ The second pattern I noticed through my literature review was that, despite this
 
 Not every study I looked at found this pattern though — a transcriptome-wide pathway analysis of the superior temporal cortex (BA22) found dysregulation centered on synaptic plasticity rather than immune or inflammatory pathways, meaning this pattern I am testing is not a foregone conclusion (Barnes et al., 2011). 
 
-Recognizing this pattern of consistent overlap of immune and inflammatory pathways appearing across independent studies even when individual genes fail to replicate led me to develop my primary hypothesis: Will immune/inflammatory pathway genes, implicated in schizophrenia by independent studies, show enrichment in expression differences between SCZ vs. control subjects in the GSE21138 dataset, and will a classifier trained on this expression data learn features reflecting this signal? To test whether this signal holds independent of the GSE21138 dataset's own duration-based framing, I also developed a secondary, exploratory hypothesis: Are the classifier's learned features aligned more closely with long-term-illness or short-term-illness signatures reported in GSE21138's original study? 
+Recognizing this pattern of consistent overlap of immune and inflammatory pathways appearing across independent studies even when individual genes fail to replicate led me to develop my primary hypothesis: Immune/inflammatory pathways, implicated in schizophrenia by independent studies, are enriched for differentially expressed genes between SCZ and control subjects in the `GSE21138` dataset, and a classifier trained on this expression data learns features reflecting this signal. To test whether this signal holds independent of the `GSE21138` dataset's own duration-based framing, I also developed a secondary, exploratory hypothesis: The classifier's top learned features show statistically significant overlap with either the long-term-illness or short-term-illness signatures reported in `GSE21138`'s original study.
 
 --- 
 
